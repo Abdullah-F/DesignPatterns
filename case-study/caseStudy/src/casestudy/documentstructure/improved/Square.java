@@ -2,28 +2,19 @@ package casestudy.documentstructure.improved;
 
 public class Square extends WorldObject{
 
-	private String specification;
+	private String specification;// object type
 	
 	public Square(String specification){
 		this.specification = specification;
 	}
-	
-	
-	
 	
 	@Override
 	public void print() {
 		System.out.println(specification);
 	}
 
-
-
-
 	@Override
 	public String getName() {
 		return specification;
-	}
-
-	
-	
+	}	
 }

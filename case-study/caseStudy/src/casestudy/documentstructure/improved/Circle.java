@@ -2,7 +2,7 @@ package casestudy.documentstructure.improved;
 
 public class Circle extends WorldObject {
 
-private String specification;
+private String specification;// type of the single object
 	
 	public Circle(String specification){
 		this.specification = specification;

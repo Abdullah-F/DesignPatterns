@@ -6,7 +6,7 @@ import java.util.List;
 public class ComposedWorldObject extends WorldObject{
 	
 	// can reference other composed world objects
-	private List<WorldObject> worldObjects = new ArrayList<WorldObject>();
+	private List<WorldObject> worldObjects = new ArrayList<WorldObject>();// has many world objects
 
 	private String specification;
 	
@@ -19,7 +19,7 @@ public class ComposedWorldObject extends WorldObject{
 	 * Delegate the print method to the referenced children
 	 */
 	@Override
-	public void print() {
+	public void print() { // renders any conposite object we can imagine.
 		System.out.println(specification);
 		
 		// iterate through the clients e.g worldobjects
