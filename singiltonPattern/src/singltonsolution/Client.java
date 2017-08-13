@@ -7,7 +7,8 @@ public class Client {
 		Preferences.getInstance().helloSingleton();
 
 
-        MyPreferences.getInstance().helloSingleton();
+                MyPreferences.getInstance().helloSingleton();
+                MyPreferences.getInstance().helloSingleton();
 		
 	}
 	
