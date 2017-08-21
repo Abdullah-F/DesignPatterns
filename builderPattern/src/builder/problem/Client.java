@@ -27,7 +27,9 @@ public class Client {
         
         /*
         the problem is the same steps takes palce every time we build  a query
-        
+        the solution is to sperate the query building process into builder objects 
+        and delegate this process to them, so that we seperate presentation of queries from
+        the process of constructing them
         */
 
 
