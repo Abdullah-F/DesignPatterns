@@ -2,6 +2,6 @@ package builder.problem;
 
 public interface Query {
 
-	void execute();
+	void execute();// core query represntation method
 	
 }

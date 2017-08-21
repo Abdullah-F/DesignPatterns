@@ -11,11 +11,11 @@ public class SqlQuery implements Query {
 		System.out.println("Executing sqlQuery from: "+from+" where "+where);
 	}
 
-	public void setFrom(String from) {
+	public void setFrom(String from) { // query construction code
 		this.from = from;
 	}
 
-	public void setWhere(String where) {
+	public void setWhere(String where) { // query construction code
 		this.where = where;
 	}
 	
