@@ -5,17 +5,17 @@ public class Client {
 
     public static void main(String [] args){
 
-        TransportFactory factory = new BikeFactory();
+        TransportFactory factory = new BikeFactory(); // creating a bike factory
 
-        Transport transport = factory.create();
+        Transport transport = factory.create();// creating a bike transport via the bike factory
 
-        System.out.println(transport.drive());
+        System.out.println(transport.drive());// driving...
 
-        factory  = new CarFactory();
+        factory  = new CarFactory();// creating a car factory
 
-        transport = factory.create();
+        transport = factory.create();// reusing the transprot object and creating a car
 
-        System.out.println(transport.drive());
+        System.out.println(transport.drive());// driving a car
 
 
     }
