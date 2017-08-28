@@ -1,4 +1,4 @@
-package creational.abstractfactory.improved;
+package abstractfactory.solution;
 
 public interface WidgetFactory {
 
