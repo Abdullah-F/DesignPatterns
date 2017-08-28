@@ -1,4 +1,4 @@
-package creational.abstractfactory;
+package abstractfactory.problem;
 
 public class PinkThemeScrollBar implements ScrollBar {
 
