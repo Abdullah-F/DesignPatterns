@@ -1,4 +1,4 @@
-package creational.prototype.improved;
+package prototypepattern.solution;
 
 public class Video extends Graphic{
 
