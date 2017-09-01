@@ -1,4 +1,4 @@
-package structural.facade.improved;
+package facadepattern.solution;
 
 public class Client {
 
