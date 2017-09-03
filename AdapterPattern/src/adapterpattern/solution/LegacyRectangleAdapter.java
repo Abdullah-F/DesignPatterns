@@ -9,7 +9,7 @@ public class LegacyRectangleAdapter extends Rectangle{
     }
 
     @Override
-    public Integer determineSize() {
+    public Integer determineSize() {// this method makes as an interface to a legacy code logic
         return legacyRectangle.calculateSize();
     }
 }
