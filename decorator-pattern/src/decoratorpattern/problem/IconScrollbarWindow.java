@@ -1,4 +1,4 @@
-package structural.decorator;
+package decoratorpattern.problem;
 
 
 public class IconScrollbarWindow extends Window{
