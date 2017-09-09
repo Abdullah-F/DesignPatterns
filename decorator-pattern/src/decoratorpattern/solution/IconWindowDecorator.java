@@ -1,4 +1,4 @@
-package structural.decorator.improved;
+package decoratorpattern.solution;
 
 
 public class IconWindowDecorator extends WindowDecorator{
