@@ -27,7 +27,7 @@ public class Client {
 
         group2.draw();
 
-        line.draw();
+        line.draw();// a single leaf drwaing !!
 
 
 
