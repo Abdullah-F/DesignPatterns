@@ -1,4 +1,4 @@
-package structural.composite;
+package compositepattern.problem;
 
 
 public class Client {
