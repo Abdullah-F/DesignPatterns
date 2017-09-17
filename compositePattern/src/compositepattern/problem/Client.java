@@ -16,7 +16,7 @@ public class Client {
         group.getRectangles().add(new Rectangle());
 
         // draw everything
-        group.draw();
+        group.draw(); // it draws everything !!!!!
     }
 
 }
