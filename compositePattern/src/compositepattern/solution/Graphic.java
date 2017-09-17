@@ -1,4 +1,4 @@
-package structural.composite.improved;
+package compositepattern.solution;
 
 
 public interface Graphic {
