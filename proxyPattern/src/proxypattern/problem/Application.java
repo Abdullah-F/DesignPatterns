@@ -1,4 +1,4 @@
-package structural.proxy;
+package proxypattern.problem;
 
 
 import java.util.ArrayList;
