@@ -1,6 +1,11 @@
-package structural.proxy.improved;
+package proxypattern.solution;
 
-
+/**
+ * 
+ * @author abdullah-fadhel
+ * a usual image class that will be encapsulated by the image proxy (virtual proxy for the image
+ *  object ) which will delay the instantiation of the image objects until we need them. 
+ */
 public class Image {
 
     protected String url;

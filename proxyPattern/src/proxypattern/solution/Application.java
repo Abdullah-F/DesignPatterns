@@ -1,4 +1,4 @@
-package structural.proxy.improved;
+package proxypattern.solution;
 
 
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ public class Application {
         this.images = images;
     }
 
-    public void draw(){
+    public void draw(){     //draws images in the list
         for (Image image : images) {
             image.draw();
         }
