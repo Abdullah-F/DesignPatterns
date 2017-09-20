@@ -12,7 +12,7 @@ public class Application {
         this.images = images;
     }
 
-    public void draw(){
+    public void draw(){// draws images it has in the list
         for (Image image : images) {
             image.draw();
         }
