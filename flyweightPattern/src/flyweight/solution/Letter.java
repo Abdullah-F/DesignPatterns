@@ -1,4 +1,4 @@
-package structural.flyweight.improved;
+package flyweight.solution;
 
 
 public class Letter {
