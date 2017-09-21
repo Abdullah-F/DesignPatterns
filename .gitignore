@@ -29,3 +29,5 @@
 /proxyPattern/build/
 /proxyPattern/dist/
 /flyweightPattern/nbproject/private/
+/flyweightPattern/build/
+/flyweightPattern/dist/
