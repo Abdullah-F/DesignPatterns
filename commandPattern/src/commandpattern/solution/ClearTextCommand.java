@@ -9,6 +9,21 @@ package commandpattern.solution;
  *
  * @author abdullah-fadhel
  */
-public class ClearTextCommand {
+public class ClearTextCommand extends AbstractCommand{
+
+    private String undoText;
+    public ClearTextCommand(TextEditor textEditor){
+        super(textEditor);
+    }
+    @Override
+    public void action(String text) {
+        undoText = getTextEditor().getText();
+        getTextEditor().setText(text);
+    }
+
+    @Override
+    public void undo() {
+        getTextEditor().setText(undoText);
+    }
     
 }

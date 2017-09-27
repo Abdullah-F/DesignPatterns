@@ -8,7 +8,11 @@ package commandpattern.solution;
 /**
  *
  * @author abdullah-fadhel
+ * 
  */
-public class Command {
-    
+public interface Command {
+
+    void action(String text);
+
+    void undo();
 }

@@ -9,6 +9,16 @@ package commandpattern.solution;
  *
  * @author abdullah-fadhel
  */
-public class AbstractCommand {
+public abstract class AbstractCommand implements Command{
+    private TextEditor textEditor;
+    public AbstractCommand(TextEditor textEditor)
+    {
+        this.textEditor = textEditor;
+    }
+    
+    public TextEditor getTextEditor()
+    {
+        return this.textEditor;
+    }
     
 }
