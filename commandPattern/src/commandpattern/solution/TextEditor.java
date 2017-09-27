@@ -13,19 +13,19 @@ import java.util.Queue;
  * @author abdullah-fadhel
  */
 public class TextEditor {
-    private String text = "empty";
-    private Queue<Command> commandsQueue = new LinkedList<Command>();
+    private String text = "empty";// first intilizes the editor with a first initial state data
+    private Queue<Command> commandsQueue = new LinkedList<Command>();// holds a list of executed commands
     
     private void executeAction(Command command, String text){
-        command.action(text);
-        commandsQueue.add(command);
+        command.action(text);//performs a specific command
+        commandsQueue.add(command);//adds it to the list of commands
     }
     
     private void undo()
     {
-        Command command = commandsQueue.poll();
-        if(command != null){
-            command.undo();
+        Command command = commandsQueue.poll();//removes the las executed command
+        if(command != null){// checks if there still any commands
+            command.undo();// undos the last concrete command applied
         }
     }
 
@@ -46,13 +46,13 @@ public class TextEditor {
     }
     
     public static void main(String[] args){
-        TextEditor textEditor = new TextEditor();
+        TextEditor textEditor = new TextEditor();// creat a text editor
 
-        ClearTextCommand clearTextCommand = new ClearTextCommand(textEditor);
-        textEditor.executeAction(clearTextCommand, "some text");
+        ClearTextCommand clearTextCommand = new ClearTextCommand(textEditor);// create a concrete command
+        textEditor.executeAction(clearTextCommand, "some text");//add and perform the command
         System.out.println(textEditor.getText());
         
-        textEditor.undo();
+        textEditor.undo();//undos the last command
         System.out.println(textEditor.getText());
     }
     

@@ -8,6 +8,8 @@ package commandpattern.solution;
 /**
  *
  * @author abdullah-fadhel
+ * a second level command interface class that holds the object witch command will be 
+ * executed on it
  */
 public abstract class AbstractCommand implements Command{
     private TextEditor textEditor;

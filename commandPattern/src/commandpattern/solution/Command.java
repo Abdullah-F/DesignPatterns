@@ -8,7 +8,7 @@ package commandpattern.solution;
 /**
  *
  * @author abdullah-fadhel
- * 
+ * a very general command interface that has only two general method (action and undoaAction methods)
  */
 public interface Command {
 
