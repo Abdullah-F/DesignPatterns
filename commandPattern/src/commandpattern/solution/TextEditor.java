@@ -54,6 +54,15 @@ public class TextEditor {
         
         textEditor.undo();//undos the last command
         System.out.println(textEditor.getText());
+        
+        System.out.println("***************************************");
+        AddNumbersCommand addNumberCommand = new AddNumbersCommand(textEditor);// creates differ
+        textEditor.executeAction(addNumberCommand, "111111155555577");//add and perform the command
+        System.out.println(textEditor.getText());
+        
+        textEditor.undo();//undos the last command
+        System.out.println(textEditor.getText());
+
     }
     
     
