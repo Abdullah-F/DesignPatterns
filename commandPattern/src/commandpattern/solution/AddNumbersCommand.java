@@ -16,13 +16,13 @@ public class AddNumbersCommand extends AbstractCommand{
     }
 
     @Override
-    public void action(String numbers) {
+    public void action(String numbers) {// performs itself
         undoText = getTextEditor().getText();
         getTextEditor().setText("numbers now are :" + numbers);
     }
 
     @Override
-    public void undo() {
+    public void undo() {//removes itself
         getTextEditor().setText(undoText);
     }
     
