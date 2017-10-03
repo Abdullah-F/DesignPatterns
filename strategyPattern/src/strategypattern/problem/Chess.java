@@ -1,4 +1,4 @@
-package behavioral.strategy;
+package strategypattern.problem;
 
 
 public class Chess {
