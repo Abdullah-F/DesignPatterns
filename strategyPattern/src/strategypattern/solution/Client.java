@@ -1,4 +1,4 @@
-package behavioral.strategy.improved;
+package strategypattern.solution;
 
 
 public class Client {
@@ -6,13 +6,14 @@ public class Client {
     public static void main(String[] args) {
 
 
-        Chess chess = new Chess();
+        Chess chess = new Chess();// creates a game instance
 
         System.out.println("Calculate next step: " +chess.calculateNextStep());
 
 
 
-        chess.setAlgorithm(new HardChessAlgorithm());
+        chess.setAlgorithm(new HardChessAlgorithm());//sets the algorithm (change the algorithm)
+                                                      // at runtime
 
 
 

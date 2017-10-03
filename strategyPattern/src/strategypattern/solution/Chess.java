@@ -1,11 +1,17 @@
-package behavioral.strategy.improved;
+package strategypattern.solution;
 
 
-import behavioral.strategy.Difficulty;
 
+/**
+ * 
+ * @author abdullah-fadhel
+ * the game class
+ * has an algorithm instance (to be chosen and a signed at runtime)
+ * it delegates calculateNextStep() call to the calculateNextStep() method of the algorithm
+ */
 public class Chess {
 
-    private ChessAlgorithm algorithm = new EasyChessAlgorithm();
+    private ChessAlgorithm algorithm = new EasyChessAlgorithm();// easy level is the default
 
     public int calculateNextStep(){
         return algorithm.calculateNextStep();

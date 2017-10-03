@@ -1,6 +1,11 @@
-package behavioral.strategy.improved;
+package strategypattern.solution;
 
-
+/**
+ * 
+ * @author abdullah-fadhel
+ * 
+ * a simple class that represents a game level with simple logic
+ */
 public class MediumChessAlgorithm implements ChessAlgorithm{
 
     @Override
