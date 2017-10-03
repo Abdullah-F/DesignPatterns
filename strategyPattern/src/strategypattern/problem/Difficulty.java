@@ -1,7 +1,7 @@
 package strategypattern.problem;
 
 
-public enum Difficulty {
+public enum Difficulty {// used for the condition of algorthim switching in the game
 
     EASY,
     MEDIUM,

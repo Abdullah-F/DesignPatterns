@@ -9,7 +9,7 @@ public class Client {
 
         System.out.println("Chess next step " + chess.calculateNextStep());
 
-        chess.setDifficulty(Difficulty.HARD);
+        chess.setDifficulty(Difficulty.HARD);// change difficulty at run time
 
         System.out.println("Chess next step " + chess.calculateNextStep());
 
