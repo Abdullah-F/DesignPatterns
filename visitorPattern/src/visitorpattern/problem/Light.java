@@ -1,7 +1,4 @@
-package behavioral.visitor;
-
-
-import apple.awt.CPanel;
+package visitorpattern.problem;
 
 public class Light extends CarPart{
     @Override

@@ -1,4 +1,4 @@
-package behavioral.visitor;
+package visitorpattern.problem;
 
 
 public class Wheel extends CarPart {
