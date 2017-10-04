@@ -1,4 +1,4 @@
-package behavioral.visitor.improved;
+package visitorpattern.solution;
 
 
 public class UpgradeCarPartVisitor implements CarPartVisitor{

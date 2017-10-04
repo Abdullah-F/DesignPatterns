@@ -1,10 +1,6 @@
-package improved;
+package visitorpattern.solution;
 
 
-import behavioral.visitor.improved.Car;
-import behavioral.visitor.improved.Engine;
-import behavioral.visitor.improved.Light;
-import behavioral.visitor.improved.Wheel;
 
 public class Client {
 
