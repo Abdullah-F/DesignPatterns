@@ -1,4 +1,4 @@
-package behavioral.observer;
+package observerpattern.problem;
 
 
 public class InputText {
