@@ -1,6 +1,9 @@
 package observerpattern.solution;
 
-
+/**
+ * InputText is a concrete observer
+ * @author abdullah-fadhel
+ */
 public class InputText implements Observer {
 
     public void setText(String text){

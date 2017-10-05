@@ -1,6 +1,9 @@
 package observerpattern.solution;
 
-
+/**
+ * List is a concrete observer
+ * @author abdullah-fadhel
+ */
 public class List implements Observer {
 
     public void setListValue(int value){
