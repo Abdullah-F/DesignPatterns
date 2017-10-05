@@ -9,7 +9,8 @@ public class Button {
 
 
     public void clicked(){
-
+        // here when the button is clicked it goes to upate other object values itself
+        // an observer should do this not the button itself
         list.setListValue(1);
         inputText.setText("button has been clicked");
 
