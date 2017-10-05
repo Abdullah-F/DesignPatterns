@@ -1,4 +1,4 @@
-package behavioral.observer.improved;
+package observerpattern.solution;
 
 
 import java.util.ArrayList;

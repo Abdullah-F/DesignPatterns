@@ -1,4 +1,4 @@
-package behavioral.observer.improved;
+package observerpattern.solution;
 
 
 public class InputText implements Observer {
