@@ -2,7 +2,7 @@ package mementopattern.solution;
 
 
 import java.awt.geom.Point2D;
-
+// a memento class that hods the state of the connection solver
 public class ConnectionSolverMemento {
 
     private Point2D firstPoint;
