@@ -1,4 +1,4 @@
-package behavioral.memento.improved;
+package mementopattern.solution;
 
 
 public class ConnectionSolverCaretaker {
