@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class List {
 
-    private java.util.List<String> items = new ArrayList<String>();
+    private java.util.List<String> items = new ArrayList<String>();// holds list items
 
 
     private InputText inputText;// what if we need different type of inputs with the list

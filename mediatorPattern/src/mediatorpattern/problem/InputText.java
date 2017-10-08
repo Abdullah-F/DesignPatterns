@@ -1,6 +1,9 @@
 package mediatorpattern.problem;
 
-
+/**
+ * an input text filed
+ * @author abdullah-fadhel
+ */
 public class InputText {
 
     private String value;
