@@ -11,6 +11,10 @@ public class List {
     private Screendirector screendirector;
 
 
+    /**
+     * sets the input via the director
+     * @param itemNumber 
+     */
     public void selectItem(int itemNumber){
         String item = items.get(itemNumber);
         if(screendirector !=null){
