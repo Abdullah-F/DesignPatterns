@@ -1,4 +1,4 @@
-package behavioral.mediator;
+package mediatorpattern.problem;
 
 
 public class InputText {

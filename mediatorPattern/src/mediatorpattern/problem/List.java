@@ -1,4 +1,4 @@
-package behavioral.mediator;
+package mediatorpattern.problem;
 
 
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ public class List {
     private java.util.List<String> items = new ArrayList<String>();
 
 
-    private InputText inputText;
+    private InputText inputText;// what if we need different type of inputs with the list
 
 
     public void selectItem(int itemNumber){
