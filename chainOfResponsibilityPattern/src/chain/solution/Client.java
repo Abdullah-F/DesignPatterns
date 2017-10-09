@@ -1,4 +1,4 @@
-package behavioral.chainofresponsibility.improved;
+package chain.solution;
 
 
 public class Client {
