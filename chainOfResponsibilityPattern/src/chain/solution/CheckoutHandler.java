@@ -1,9 +1,11 @@
 package chain.solution;
 
 
-import java.util.ArrayList;
-import java.util.List;
 
+/**
+ * a class that composes an a reference to the next handler in a generic way
+ * @author abdullah-fadhel
+ */
 public abstract class CheckoutHandler {
 
     protected CheckoutHandler nextHandler;

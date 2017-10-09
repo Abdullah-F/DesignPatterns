@@ -6,13 +6,14 @@ public class Client {
     public static void main(String[] args) {
 
 
-        PaymentCheckoutHandler handler = new PaymentCheckoutHandler();
-        CustomerInfoCheckoutHandler customerInfoCheckoutHandler = new CustomerInfoCheckoutHandler();
+        PaymentCheckoutHandler handler = new PaymentCheckoutHandler();// define a handler
+        CustomerInfoCheckoutHandler 
+                customerInfoCheckoutHandler = new CustomerInfoCheckoutHandler();//another handler
 
-        handler.setNextHandler(customerInfoCheckoutHandler);
+        handler.setNextHandler(customerInfoCheckoutHandler);//set next handler
 
 
-        handler.handlCheckout();
+        handler.handlCheckout();//call the chain of handlers !!
 
 
 
