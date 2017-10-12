@@ -1,10 +1,14 @@
 package statepattern.problem;
 
-
+/**
+ * the problem is that we need to get rid of all complex if conditions 
+ * in this class and that could be achieved by using the state design pattern
+ * @author abdullah-fadhel
+ */
 public class TCPConnection {
 
 
-    private TCPConnectionState state = TCPConnectionState.CLOSED;
+    private TCPConnectionState state = TCPConnectionState.CLOSED;//initial state
 
 
     public void open(){
