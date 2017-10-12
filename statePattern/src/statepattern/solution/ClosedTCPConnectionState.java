@@ -1,4 +1,4 @@
-package behavioral.state.improved;
+package statepattern.solution;
 
 
 public class ClosedTCPConnectionState implements TCPConnectionState{
