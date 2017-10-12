@@ -1,4 +1,4 @@
-package behavioral.state;
+package statepattern.problem;
 
 
 public class TCPConnection {
