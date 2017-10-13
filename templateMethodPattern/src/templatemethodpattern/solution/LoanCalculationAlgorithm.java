@@ -1,6 +1,9 @@
 package templatemethodpattern.solution;
 
-
+/**
+ * the base class for loan calculation
+ * @author abdullah-fadhel
+ */
 public abstract class LoanCalculationAlgorithm {
 
 

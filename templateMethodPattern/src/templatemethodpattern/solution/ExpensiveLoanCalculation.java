@@ -1,6 +1,9 @@
 package templatemethodpattern.solution;
 
-
+/**
+ * an extention upon the base algorithm for calculating expensive loan
+ * @author abdullah-fadhel
+ */
 public class ExpensiveLoanCalculation extends LoanCalculationAlgorithm {
 
 

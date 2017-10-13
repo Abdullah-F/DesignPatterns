@@ -1,6 +1,9 @@
 package templatemethodpattern.solution;
 
-
+/**
+ * an extention for calculating cheap loans
+ * @author abdullah-fadhel
+ */
 public class CheapLoanCalculation extends LoanCalculationAlgorithm {
 
 
